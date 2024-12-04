@@ -1,0 +1,47 @@
+package com.codinghub;
+
+public class game
+{
+	String name;
+	int players;
+	String stadium_name;
+	int Stadium_strength;
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getPlayers() {
+		return players;
+	}
+
+	public void setPlayers(int players) {
+		this.players = players;
+	}
+
+	public String getStadium_name() {
+		return stadium_name;
+	}
+
+	public void setStadium_name(String stadium_name) {
+		this.stadium_name = stadium_name;
+	}
+
+	public int getStadium_strength() {
+		return Stadium_strength;
+	}
+
+	public void setStadium_strength(int stadium_strength) {
+		Stadium_strength = stadium_strength;
+	}
+
+	@Override
+	public String toString() {
+		return "game [name=" + name + ", players=" + players + ", stadium_name=" + stadium_name + ", Stadium_strength="
+				+ Stadium_strength + "]";
+	}
+}
