@@ -1,0 +1,39 @@
+package com.codinghub;
+
+public class stud1
+{
+String name;
+String college;
+String section;
+int marks;
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public String getCollege() {
+	return college;
+}
+public void setCollege(String college) {
+	this.college = college;
+}
+public String getSection() {
+	return section;
+}
+public void setSection(String section) {
+	this.section = section;
+}
+public int getMarks() {
+	return marks;
+}
+public void setMarks(int marks) {
+	this.marks = marks;
+}
+@Override
+public String toString() {
+	return "stud1 [name=" + name + ", college=" + college + ", section=" + section + ", marks=" + marks + "]";
+}
+
+}
+
